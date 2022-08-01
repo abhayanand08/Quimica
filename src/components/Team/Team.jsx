@@ -5,7 +5,6 @@ import Teammember from './Team-member'
 function Team() {
   return (
     <div>
-        <Navbar />
         <Teammember />
     </div>
   )
