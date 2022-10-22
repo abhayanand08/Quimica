@@ -1,9 +1,10 @@
 import React from 'react'
-import images from '../../Constants/images';
+import image from '../../constants/image';
 import {BsLinkedin} from 'react-icons/bs';
 import Tilt from 'react-vanilla-tilt';
 
 import './Team.css';
+
 
 function Teammember() {
   return (
@@ -15,7 +16,7 @@ function Teammember() {
         <div className='container'>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -26,19 +27,7 @@ function Teammember() {
             </div>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
-                    <div className='contentbox'>
-                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
-                    </div>
-                </div>
-                <ul className='social-icon'>
-               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
-            </ul>
-            </div>
-
-            <div className='card'>
-                <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -50,7 +39,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -62,7 +51,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -74,7 +63,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -86,7 +75,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -98,7 +87,19 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
+                    <div className='contentbox'>
+                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
+                    </div>
+                </div>
+                <ul className='social-icon'>
+               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
+            </ul>
+            </div>
+
+            <div className='card'>
+                <div className='content'>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -116,7 +117,7 @@ function Teammember() {
         <div className='container'>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -127,19 +128,7 @@ function Teammember() {
             </div>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
-                    <div className='contentbox'>
-                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
-                    </div>
-                </div>
-                <ul className='social-icon'>
-               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
-            </ul>
-            </div>
-
-            <div className='card'>
-                <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -151,7 +140,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -163,7 +152,19 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
+                    <div className='contentbox'>
+                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
+                    </div>
+                </div>
+                <ul className='social-icon'>
+               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
+            </ul>
+            </div>
+
+            <div className='card'>
+                <div className='content'>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -176,7 +177,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -188,7 +189,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -200,7 +201,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -217,7 +218,7 @@ function Teammember() {
         <div className='container'>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -228,19 +229,7 @@ function Teammember() {
             </div>
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
-                    <div className='contentbox'>
-                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
-                    </div>
-                </div>
-                <ul className='social-icon'>
-               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
-            </ul>
-            </div>
-
-            <div className='card'>
-                <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -252,7 +241,19 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
+                    <div className='contentbox'>
+                        <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
+                    </div>
+                </div>
+                <ul className='social-icon'>
+               <li><a href=""><BsLinkedin size={25} style={{color:'#fff'}}/></a></li> 
+            </ul>
+            </div>
+
+            <div className='card'>
+                <div className='content'>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -265,7 +266,7 @@ function Teammember() {
             
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -278,7 +279,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -290,7 +291,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
@@ -302,7 +303,7 @@ function Teammember() {
 
             <div className='card'>
                 <div className='content'>
-                    <div className='imgbx'><img src={images.teamdemo} alt='teampic'/></div>
+                    <div className='imgbx'><img src={image.teamdemo} alt='teampic'/></div>
                     <div className='contentbox'>
                         <h3>Abhay Anand<br></br><span>Web Developer</span></h3>
                     </div>
