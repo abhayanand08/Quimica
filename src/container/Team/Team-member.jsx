@@ -10,7 +10,7 @@ function Teammember() {
   return (
     <div className='body'>
         <section>
-        <h1>Our Team</h1>
+        <h1>Our&nbsp;<span className='diff'>Team</span></h1>
         <div className='parent'>
         <h2>2K18 Members</h2>
         <div className='container'>
