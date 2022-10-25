@@ -9,11 +9,12 @@
     box-shadow: 0px 4px 14px #000000;
 }
 .heading{
-    padding: 0rem 4rem;
+    color: var(--color-white);
+    border-bottom: 1px solid var(--color-orange);
 }
 .heading h1{
-    color: #fff;
     font-size: 3.5rem;
+    padding: 0rem 4rem 0.5rem 4rem;
 }
 .heading h1 span{
     color: var(--color-orange);

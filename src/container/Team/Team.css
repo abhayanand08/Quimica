@@ -2,21 +2,27 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: conic-gradient(from -53.16deg at 50.03% 50%, #1F0047 -0.03deg, #0C1927 359.9deg, #1F0047 359.97deg, #0C1927 719.9deg);
+    position: relative;
+    background-image: conic-gradient(from -28.16deg at 50.03% 50%, #1F0047 -0.03deg, #0C1927 359.9deg, #1F0047 359.97deg, #0C1927 719.9deg);
     min-height: 100vh;
     width: 100%;
+    border-radius: 70px 70px 0px 0px;
+    border-top: 3px solid var(--color-orange);
+    border-bottom: 2px solid var(--color-orange);
 }
 section{
     position: relative;
+    padding: 0 1.5rem;
 }
 section h1{
    display: flex;
    justify-content: center;
    align-items: center;
-   font-size: 4rem;
+   font-size: 3.5rem;
    font-weight: bolder;
+   padding: 0 0 0.5rem 0;
    color: #fff;
-   margin-top: 30px;
+   margin-top: 130px;
 }
 section h1 span{
     color: #EC4D03;

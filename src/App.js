@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './components';
+import { Footer, Navbar } from './components';
 import { AboutUs, ContactUs, Events, Gallery, Home, Team } from './container';
 import Header from './container/Header/Header';
 
@@ -10,10 +10,11 @@ function App() {
      <Navbar/>
      <Header />
      <AboutUs />
-     <Gallery />
      <Events />
+     <Gallery />
      <Team />
      <ContactUs />
+     <Footer />
     </div>
   );
 }
